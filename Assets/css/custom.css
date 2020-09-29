@@ -1,0 +1,163 @@
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button {
+  border-radius: 100px;
+}
+
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.columns {
+    margin-left: 1%;
+}
+
+.columns {
+    margin-left: 0%;
+}
+
+.section {
+  padding: 8rem 0 7rem;
+  text-align: center;
+}
+.section-heading,
+.section-description {
+  margin-bottom: 1.2rem;
+}
+
+
+ul {
+  list-style: disc; 
+  padding-left:20px;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+ #footertext {
+  padding-left:10px;
+  padding-right:10px;
+}
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+  .hero-heading {
+    padding-top: 10px;  
+  }
+  .imageWidth {
+    position: relative;
+  }
+  .imageWidth {
+    position: relative;
+    width:80%;
+    height: auto;
+    /*margin: 3rem auto -12rem;*/
+  }
+  .columnTwo {
+    max-width:100%;
+  }
+  .incentive {
+      /*border-left: 1px solid #CDCDCC;*/
+      border: 1px solid #CDCDCC;
+  }
+
+  .autoresponderForm {
+    margin: 10px;    
+  }
+.phones {
+  /*position: relative;*/
+}
+.phone {
+/*  position: relative;
+  max-width: 80%;
+  margin: 3rem auto -12rem;*/
+}
+.phone + .phone {
+  /*display: none;*/
+}
+
+/* Values
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.values {
+/*  background-image: url('../images/values-bg.jpg');
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 5rem;*/
+}
+.value-multiplier {
+  margin-bottom: .5rem;
+  color: #11DFC7;
+}
+.value-heading {
+  margin-bottom: .3rem;
+}
+.value-description {
+  opacity: .8;
+  font-weight: 300;
+}
+
+/* Help
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.get-help {
+  /*border-bottom: 1px solid #ddd;*/
+}
+
+/* Categories
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.categories {
+/*  background-image: url('../images/values-bg.jpg');
+  background-size: cover;
+  color: #fff;
+*/}
+.categories .section-description { 
+  /*margin-bottom: 4rem;*/
+}
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+  .imageWidth {
+    position: relative;
+  }
+  .imageWidth {
+    position: relative;
+    width:80%;
+    height: auto;
+    /*margin: 3rem auto -12rem;*/
+  }
+  .columnTwo {
+    max-width: 100%;
+  }
+
+}
+
+@media (max-width: 550px) {
+  .leftColumn {
+      padding-top:10px;
+
+      border-top: 1px solid #CDCDCC;
+      border-left: 1px solid #CDCDCC;
+      border-right: 1px solid #CDCDCC;
+  }
+  .incentive {
+      border-top: none;
+      border-left: 1px solid #CDCDCC;
+      border-right: 1px solid #CDCDCC;
+  }
+  .column, .columns {
+     margin-left: 0%; 
+}
+
+}
+
+
+/* Bigger than 550 */
+@media (min-width: 550px) {
+}
+
+/* Bigger than 750 */
+@media (min-width: 750px) {
+
+}
+
+/* Bigger than 1000 */
+@media (min-width: 1000px) {
+
+
+}
